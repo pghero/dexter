@@ -1,5 +1,5 @@
 default_dependencies: false
-cli: bin/dexter
+cli: dexter
 targets:
   ubuntu-16.04:
     dependencies:
