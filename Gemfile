@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem "pgdexter"
+gem "pgdexter", git: "https://github.com/ankane/dexter.git"
