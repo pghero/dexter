@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/ankane/dexter.git
-  revision: 701aa640c6b119be9057f0374f9894a971478fa0
+  revision: 4db863bd5db32594afd18a59cf30d70f329b2a00
   specs:
     pgdexter (0.3.1)
       pg
