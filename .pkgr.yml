@@ -7,6 +7,9 @@ targets:
   ubuntu-14.04:
     dependencies:
       - libpq5
+  debian-9:
+    dependencies:
+      - libpq5
   debian-8:
     dependencies:
       - libpq5
