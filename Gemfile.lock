@@ -1,24 +1,19 @@
-GIT
-  remote: https://github.com/ankane/dexter.git
-  revision: 88b30292394a9167606cdff18a60431d8e95a8fe
-  specs:
-    pgdexter (0.3.3)
-      pg
-      pg_query
-      slop (>= 4.2.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
     pg (1.0.0)
     pg_query (1.0.1)
+    pgdexter (0.3.4)
+      pg
+      pg_query
+      slop (>= 4.2.0)
     slop (4.6.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  pgdexter!
+  pgdexter
 
 BUNDLED WITH
    1.16.1
