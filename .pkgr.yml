@@ -1,6 +1,9 @@
 default_dependencies: false
 cli: dexter
 targets:
+  ubuntu-20.04:
+    dependencies:
+      - libpq5
   ubuntu-18.04:
     dependencies:
       - libpq5
@@ -10,12 +13,18 @@ targets:
   ubuntu-14.04:
     dependencies:
       - libpq5
+  debian-10:
+    dependencies:
+      - libpq5
   debian-9:
     dependencies:
       - libpq5
   debian-8:
     dependencies:
       - libpq5
+  centos-8:
+    dependencies:
+      - postgresql-libs
   centos-7:
     dependencies:
       - postgresql-libs
