@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/ankane/dexter.git
-  revision: 8903640cf736815a109a2bf95e3a7bc1a00ef2a2
+  revision: 4cf8665290b0838169a4f531e3ff7cffd4e72e72
   specs:
-    pgdexter (0.3.7)
+    pgdexter (0.3.8)
       pg (>= 0.18.2)
       pg_query
       slop (>= 4.8.2)
