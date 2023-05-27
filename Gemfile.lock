@@ -1,11 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    google-protobuf (3.22.3)
-    pg (1.4.6)
-    pg_query (4.2.0)
-      google-protobuf (>= 3.19.2)
-    pgdexter (0.5.0)
+    google-protobuf (3.23.2)
+    pg (1.5.3)
+    pg_query (4.2.1)
+      google-protobuf (>= 3.22.3)
+    pgdexter (0.5.1)
       pg (>= 0.18.2)
       pg_query (~> 4)
       slop (>= 4.10.1)
@@ -15,7 +15,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pgdexter (= 0.5.0)
+  pgdexter (= 0.5.1)
 
 RUBY VERSION
    ruby 3.1.4p223
