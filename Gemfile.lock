@@ -1,13 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    csv (3.2.8)
+    csv (3.3.0)
     google-protobuf (3.25.3)
     pg (1.5.6)
     pg_query (4.2.3)
       google-protobuf (>= 3.22.3)
-    pgdexter (0.5.3)
+    pgdexter (0.5.4)
       csv
+      google-protobuf (< 4)
       pg (>= 0.18.2)
       pg_query (~> 4)
       slop (>= 4.10.1)
@@ -17,7 +18,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pgdexter (= 0.5.3)
+  pgdexter (= 0.5.4)
 
 RUBY VERSION
    ruby 3.1.4p223
