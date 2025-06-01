@@ -1,27 +1,30 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    csv (3.3.0)
-    google-protobuf (3.25.3)
-    pg (1.5.6)
-    pg_query (5.1.0)
-      google-protobuf (>= 3.22.3)
-    pgdexter (0.5.5)
+    bigdecimal (3.2.1)
+    csv (3.3.5)
+    google-protobuf (4.31.1)
+      bigdecimal
+      rake (>= 13)
+    pg (1.5.9)
+    pg_query (6.1.0)
+      google-protobuf (>= 3.25.3)
+    pgdexter (0.6.0)
       csv
-      google-protobuf (< 4)
-      pg (>= 0.18.2)
-      pg_query (~> 5.1)
+      pg (>= 1)
+      pg_query (~> 6)
       slop (>= 4.10.1)
+    rake (13.3.0)
     slop (4.10.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  pgdexter (= 0.5.5)
+  pgdexter (= 0.6.0)
 
 RUBY VERSION
-   ruby 3.1.6p260
+   ruby 3.4.4p34
 
 BUNDLED WITH
-   2.3.26
+   2.6.7
