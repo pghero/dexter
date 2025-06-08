@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    bigdecimal (3.2.1)
+    bigdecimal (3.2.2)
     csv (3.3.5)
     google-protobuf (4.31.1)
       bigdecimal
@@ -9,7 +9,7 @@ GEM
     pg (1.5.9)
     pg_query (6.1.0)
       google-protobuf (>= 3.25.3)
-    pgdexter (0.6.0)
+    pgdexter (0.6.1)
       csv
       pg (>= 1)
       pg_query (~> 6)
@@ -21,7 +21,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pgdexter (= 0.6.0)
+  pgdexter (= 0.6.1)
 
 RUBY VERSION
    ruby 3.4.4p34
